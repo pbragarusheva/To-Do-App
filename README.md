@@ -1,4 +1,8 @@
 # Todo React Tailwind App
+
+## Application UI:
+![to-do-app-screenshot](./to-do-app-screenshot.png)
+
 ## Technologies used for the project creation:
 1. React @18.3.1
 2. Tailwindcss @3.4.17
@@ -23,5 +27,10 @@ npm run dev
 ```
 3. Open: ```http://localhost:8080```
 
-## Application UI:
-![to-do-app-screenshot](./to-do-app-screenshot.png)
+## WARNING!
+In case you couldn't start the app and get a warning about the ES module couldn't be loaded...
+1. Go to *package.json* and add *"type": "module"*
+2. Run the server again: ```npm run dev```
+3. In case the app couldn't be started either - go to *postcss.config.js* and rename it to *postcss.config.mjs*
+4. Run the server again: ```npm run dev```
+5. Now everything should work properly :D

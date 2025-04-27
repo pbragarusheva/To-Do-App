@@ -23,4 +23,5 @@ npm run dev
 ```
 3. Open: ```http://localhost:8080```
 
-##Application UI:
+## Application UI:
+![to-do-app-screenshot](./to-do-app-screenshot.png)

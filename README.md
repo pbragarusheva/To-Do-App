@@ -28,7 +28,7 @@ npm run dev
 3. Open: ```http://localhost:8080```
 
 ## WARNING!
-In case you couldn't start the app and get a warning about the ES module couldn't be loaded...
+In case you couldn't start the app and get a **warning about loading the ES module**:
 1. Go to *package.json* and add *"type": "module"*
 2. Run the server again: ```npm run dev```
 3. In case the app couldn't be started either - go to *postcss.config.js* and rename it to *postcss.config.mjs*
